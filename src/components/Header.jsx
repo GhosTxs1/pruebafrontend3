@@ -8,10 +8,6 @@ export default function header(props){
                     <h1>Todo Computacion</h1>
                 </a>
             </div>
-            <div>
-                <a href="#/cart"></a>
-                <a href="#/signIn"></a>
-            </div>
         </header>
     )
 }
