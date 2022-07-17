@@ -1,9 +1,9 @@
 import React from "react";
-export default function basket(props){
+export default function Carrito(props){
     const {itemsCarrito, onAdd, onRemove} = props;
     const subTotal = itemsCarrito.reduce((a, c) => a + c.precio * c.qty, 0);
     const precioTotal = subTotal
-    return <aside className="block col-1">
+    return <aside className="block-carrito col-1">
         <h2>Productos en Carrito</h2>
         <div>
             {itemsCarrito.length === 0 && <div>Carrito Vacio</div>}

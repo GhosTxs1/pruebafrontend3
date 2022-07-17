@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import Main from './components/Main';
-import Basket from './components/Basket';
+import Carrito from './components/Carrito';
 import data from './data';
 import { useState } from 'react';
 
@@ -37,7 +37,7 @@ function App() {
       <Header></Header>
       <div className='row'>
         <Main onAdd={onAdd} productos={productos}></Main>
-        <Basket onAdd={onAdd} onRemove={onRemove} itemsCarrito={itemsCarrito}></Basket>
+        <Carrito onAdd={onAdd} onRemove={onRemove} itemsCarrito={itemsCarrito}></Carrito>
       </div>
     </div>
   );
