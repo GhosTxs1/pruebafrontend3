@@ -2,7 +2,7 @@ import React from "react";
 
 export default function header(props){
     return (
-        <header className="row block">
+        <header className="row block-titulo">
             <div>
                 <a>
                     <h1>Todo Computacion.</h1>
